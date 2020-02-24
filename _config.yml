@@ -1,0 +1,89 @@
+# Config you can modify
+# ========================================================================================
+
+# IMPORTANT: Set the URL of your site.
+# Set to https://<username>.github.io when hosting on GitHub Pages
+# (unless you are using a custom domain).
+url: "https://etienne-monier.github.io"
+
+# IMPORTANT: Set The "base URL" of your site.
+# When your site sits in a subdirectory, set to /<name of directory>
+# (with leading /, but without the < >).
+# Use the empty string '' otherwise.
+# For GitHub project sites, this is usually the name of the project,
+# e.g. `/hydejack`.
+baseurl: ''
+
+# Languages of your content in 2-letter code, e.g.: en, de.
+# The first language is the default one.
+languages: ["fr", "en"]
+
+# Text of the link to get to laguage (bottom of the sidebar)
+# This is enabled only is two laguages are defined above.
+text_to_lang:
+  fr: "Version française"
+  en: "English this way."
+
+# A (square) logo for your site.
+# If provided, it will be shown in the tab.
+# It also used by the `jekyll-seo-tag` plugin.
+logo: "/assets/images/site_ico.ico"
+
+# The author name and an image.
+author: 
+  name: "Etienne Monier"
+  image: "/assets/images/Etienne.jpg"
+
+
+# Customizaton
+# ---------------------------------------------------------------------------------------
+
+# Sidebar image
+sidebar_img: "/assets/images/sidebar-bg.jpg"
+
+apple_touch_ico: "/assets/images/irit.png"
+
+
+# 3rd Party Integrations
+# ----------------------------------------------------------------------------------------
+
+# Set your Google Analytics id to receive `pageview` events.
+# To remove Google Anaylics from your page, remove the line below.
+google_analytics:      UA-138135573-1
+
+
+
+# Config you should not modify
+# ========================================================================================
+
+# Files
+# ---------------------------------------------------------------------------------------
+
+include: [.htaccess, robot.txt]
+
+
+# Plugins
+# ---------------------------------------------------------------------------------------
+
+plugins:
+  - jekyll-scholar
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-multiple-languages-plugin
+
+
+# Other Plugins
+# ---------------------------------------------------------------------------------------
+
+# Markdown config
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Jeckyll-scholar config
+scholar:
+  bibliography_template: bibtemplate
+  repository: publications
+  sort_by: year,month
+  order: descending
+

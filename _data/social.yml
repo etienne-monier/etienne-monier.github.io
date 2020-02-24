@@ -1,0 +1,23 @@
+- link: mailto:etienne.monier@enseeiht.fr
+  title: Email
+  class: fas fa-envelope
+
+- link: assets/pdf/cv.pdf
+  title: CV
+  class: ai ai-cv
+
+- link: https://www.linkedin.com/in/etienne-monier-7252a19b/
+  title: LinkedIn
+  class: fab fa-linkedin-in
+
+- link: https://github.com/etienne-monier
+  title: Github
+  class: fab fa-github
+
+- link: https://scholar.google.fr/citations?user=S28G8eMAAAAJ&hl=fr&oi=ao
+  title: Google Scholar
+  class: ai ai-google-scholar
+
+- link: https://www.lairdubois.fr/etienne31
+  title: L'air du bois
+  class: icon-ladb_2

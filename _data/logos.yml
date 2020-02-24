@@ -1,0 +1,11 @@
+- name: IRITlogo
+  link: https://www.irit.fr/
+  src: assets/images/Logo_IRIT.png
+
+- name: Toulouselogo
+  link: http://www.univ-toulouse.fr/
+  src: assets/images/Logo_univToulouse.jpg
+
+- name: ENSEEIHTlogo
+  link: http://www.enseeiht.fr/fr/index.html
+  src: assets/images/Logo_ENSEEIHT.png

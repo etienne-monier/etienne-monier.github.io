@@ -1,0 +1,11 @@
+ErrorDocument 404 /404.html
+
+## Mise en cache
+<IfModule mod_expires.c>
+    ExpiresActive on
+    ExpiresDefault                        "access plus 1 month"
+  # CSS
+    ExpiresByType text/css                "access plus 1 month"
+  # JavaScript
+    ExpiresByType application/javascript  "access plus 1 month"
+</IfModule>

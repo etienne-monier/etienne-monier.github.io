@@ -1,0 +1,103 @@
+#
+#
+#  French configuration
+#
+#
+
+# Config
+# ========================================================================================
+
+# Literal language name
+lang: Français
+
+# French configuration of the website
+site:
+  title: "Etienne MONIER, Univ. Toulouse"
+  image: "/assets/images/Etienne.jpg"
+  description: "Site internet d'Etienne Monier, doctorant en traitement du signal et de l'image à Toulouse, France."
+  locale: fr_FR
+  site_name: 
+
+
+# Left pannel description
+sidebar_text: "Doctorant en traitement du signal et de l'image à Toulouse, France. "
+
+
+# SEO
+# ========================================================================================
+
+# The title of the pages
+titles:
+  home: "Etienne MONIER, Univ. Toulouse"
+  publications: "Publications"
+  research: "Recherche"
+  teaching: "Enseignement"
+  cv: "CV"
+  find-me: "Me contacter"
+
+# The description of the pages
+# /!\ SBetter is to hare 70-160 letters (spaces included).
+descriptions:
+  home: >
+    Je suis un doctorant en traitement de l'image à l'IRIT/ENSEEIHT, 
+    à Toulouse. Mes travaux concernent le développement d'algorithmes de reconstruction.
+  publications: >
+    Cette page liste les publications produite au cours de mon travail de recherche.
+  research: >
+    Mes centres d'intérêt sont l'inpainting, les images multi-bande, 
+    l'apprentissage de dictionnaires, la reconstruction d'images, le 
+    sous-échantillonnage, la parcimonie de données.
+  teaching: >
+    J'enseigne le traitement numérique du signal et l'électronique analogique 
+    à des étudiants de licence et de master.
+  cv: >
+    Vous trouverez ici toutes les informations concernant ma formation professionnelle 
+    et académique.
+  find-me: >
+    Vous pouvez me contacter en m'envoyant un mail ou alors en utilisant les 
+    réseaux sociaux.
+
+
+# Navigation
+# ========================================================================================
+
+# 
+# Add an id for each page with the link name that will appear on the leftbar. 
+# CAUTION: the id should be common to all language config file.
+nav: 
+
+  - id: home 
+    name: "A propos"
+  
+  - id: publications
+    name: Publications 
+  
+  - id: research 
+    name: Recherche
+  
+  - id: teaching
+    name: Enseignement
+  
+  - id: cv
+    name: "CV"
+  
+  - id: findme
+    name: "Me trouver" 
+
+
+# News/Events
+# ========================================================================================
+
+# The title of the News/Events section
+events_title: "En ce moment"
+
+# The events date and description.
+#
+# If this part is commented, nothing will be displayed on the welcome page.
+# 
+# e.g.
+# events:
+#   - date: "23-26 sept. 2018 "
+#     text: "Participation à <a href='http://www.ieee-whispers.com/2017/11/23/whispers-2018/'>WHISPERS 2018</a> (Amsterdam, Pays-Bas)"
+
+

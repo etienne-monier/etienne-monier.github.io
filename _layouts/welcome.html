@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="{{page.lang}}" xmlns:og="http://ogp.me/ns#"> <!-- xmlns to enable open graph -->
+
+<head>
+
+    <!-- Select UTF8 -->
+    <meta charset="utf-8">
+
+    <!-- Responsive website -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Disable IE compatibility mode -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+    <!-- Mobile service -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="{{site.author}}">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="application-name" content="{{site.author}}">
+    <meta name="msapplication-config" content="assets/ieconfig.xml">
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#4fb1ba">
+    <link type="application/atom+xml" rel="alternate" href="{{ site.url }}" title="{% unless site.alternative_lang and page.lang != 'en' %}{{ site.author }}{% else %}{{ site.author_fr }}{% endunless %}" />
+    <link rel="alternate" href="{{ site.url }}" hreflang="en">
+    <link rel="shortcut icon" href="{{ site.site_icon }}">
+    <link rel="apple-touch-icon" href="{{ site.apple_touch_ico }}">
+
+        
+    <!--- 
+        KaTeX 
+    -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css" integrity="sha384-dbVIfZGuN1Yq7/1Ocstc1lUEm+AT+/rCkibIcC/OmWo5f0EA48Vf8CytHzGrSwbQ" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js" integrity="sha384-2BKqo+exmr9su6dir+qCw08N2ZKRucY4PrGQPPWU1A7FtlCGjmEGFqXCv5nyM5Ij" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+    
+    <!-- Font Awesome and academicons icons -->
+    <!-- <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css" integrity="sha384-QokYePQSOwpBDuhlHOsX0ymF6R/vLk/UQVz3WHa6wygxI5oGTmDTv8wahFOSspdm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css" integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    
+    <!-- Bootstrap core CSS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!--- Google Fonts --->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+
+
+
+    <!-- This code is read by all navigators but the IE with version lower than 8 -->
+    <!--[if gt IE 8]><!---->
+
+
+    <script src='assets/js/font.js'></script>
+
+    <link rel="stylesheet" href="assets/css/hydejack-7.5.1.css">
+    <link id="_pageStyle" rel="stylesheet" href="assets/css/pageStyle.css">
+
+    <!--<![endif]-->
+
+
+    <!-- If javascripts disabled -->
+    <noscript>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:700%7CNoto+Sans:400,400i,700,700i">
+    <style>
+        html { font-family: Noto Sans, Helvetica, Arial, sans-serif }
+        h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading { font-family: Roboto Slab, Helvetica, Arial, sans-serif }
+    </style>
+
+    <link rel="stylesheet" href="assets/icomoon/style.css">
+    </noscript>
+
+
+    <!-- Search Engine Optimization -->
+
+    {% seo %}
+
+</head>
+
+
+<body>
+    
+    <div id='Welcome'>
+    {{content}}
+    </div>
+
+</body>
+</html>

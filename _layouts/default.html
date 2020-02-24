@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="{{site.lang}}" xmlns:og="http://ogp.me/ns#"> <!-- xmlns to enable open graph -->
+
+<head>
+
+    <!-- Select UTF8 -->
+    <meta charset="utf-8">
+
+    <!-- Search Engine Optimization -->
+
+    <title>{% if page.title %}{% t page.title %}{% else %}{% t site.title %}{% endif %}</title>
+    <meta property="og:title" content="{% if page.title %}{% t page.title %}{% else %}{% t site.title %}{% endif %}" />
+
+    <meta name="author" content="{{site.author.name}}" />
+    
+    <meta name="description" content="{% if page.description %}{% t page.description %}{% else %}{% t site.description %}{% endif %}" />
+    <meta property="og:description" content="{% if page.description %}{% t page.description %}{% else %}{% t site.description %}{% endif %}" />
+
+    <meta property="og:locale" content="{% t site.locale %}" />
+    
+    
+    <link rel="canonical" href="{{site.url}}{% tl {{page.namespace}} {{site.lang}} %}" />
+    <meta property="og:url" content="{{site.url}}" />
+    <meta property="og:site_name" content="{% t site.title %}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="{{site.url}}{{site.author.image}}" />
+
+    <!-- Responsive website -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Disable IE compatibility mode -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+    <!-- Mobile service -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="{{site.author.name}}">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="application-name" content="{{site.author.name}}">
+    <meta name="msapplication-config" content="assets/ieconfig.xml">
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#4fb1ba">
+    <link type="application/atom+xml" rel="alternate" href="{{ site.url }}" title="{{ site.author.name }}" />
+    <link rel="alternate" href="{{ site.url }}" hreflang="en">
+    <link rel="shortcut icon" href="{{ site.logo }}">
+    <link rel="apple-touch-icon" href="{{ site.apple_touch_ico }}">
+
+        
+    <!--- 
+        KaTeX 
+    -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css" integrity="sha384-dbVIfZGuN1Yq7/1Ocstc1lUEm+AT+/rCkibIcC/OmWo5f0EA48Vf8CytHzGrSwbQ" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js" integrity="sha384-2BKqo+exmr9su6dir+qCw08N2ZKRucY4PrGQPPWU1A7FtlCGjmEGFqXCv5nyM5Ij" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+    
+    <!-- Font Awesome and academicons icons -->
+    <!-- <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css" integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+    
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    
+    <!-- Bootstrap core CSS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!--- Google Fonts --->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+
+
+
+    <!-- This code is read by all navigators but the IE with version lower than 8 -->
+    <!--[if gt IE 8]><!---->
+
+
+    <script src='assets/js/font.js'></script>
+    <script src='assets/js/smooth_scrolling.js'></script>
+    
+    <link rel="stylesheet" href="assets/css/hydejack-7.5.1.css">
+    <link id="_pageStyle" rel="stylesheet" href="assets/css/pageStyle.css">
+
+    <!--<![endif]-->
+
+
+    <!-- If javascripts disabled -->
+    <noscript>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:700%7CNoto+Sans:400,400i,700,700i">
+    <style>
+        html { font-family: Noto Sans, Helvetica, Arial, sans-serif }
+        h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading { font-family: Roboto Slab, Helvetica, Arial, sans-serif }
+    </style>
+
+    <link rel="stylesheet" href="assets/icomoon/style.css">
+    </noscript>
+
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+        {% include analytics.html %}
+    {% endif %}
+
+</head>
+
+
+<body>
+    <div class="navbar fixed-top">
+        <div class="content">
+            <div class="nav-btn-bar">
+                <span class="sr-only">Jump to:</span>
+                <a id="_menu" class="nav-btn no-hover" href="#_navigation">
+                    <span class="sr-only">Navigation</span>
+                    <span class="icon-menu"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <hy-push-state>
+        
+        <!-- Main content -->
+        <main
+        id="_main"
+        class="content fade-in layout-about"
+        role="main"
+        data-color="#4fb1ba"
+        data-theme-color=""
+        data-image="{{site.sidebar_img}}"
+        data-overlay   
+        >
+
+            <article class="page" role="article">
+                {{ content }}
+                <script src='assets/js/math.js'></script>
+            </article>
+        </main>
+
+        <!-- Sidebar -->
+        <hy-drawer>
+            <header id="_sidebar" class="sidebar" role="banner">
+                <div class="sidebar-bg sidebar-overlay" style="background-color:#4fb1ba;background-image:url({{site.sidebar_img}})">  </div>
+                <div class="sidebar-sticky">
+                    <div class="sidebar-about">
+                        <h2 class="h1">
+                            <a href="/">
+                                {{ site.author.name }}
+                            </a>
+                        </h2>
+                        <p>
+                            {% t sidebar_text %}
+                        </p>
+                    </div>
+
+                    <nav class="sidebar-nav heading" role="navigation">
+                        <span class="sr-only">Navigation:</span>
+                        <ul>
+                            {% for item in site.translations[site.lang].nav %}
+                                <a href='{% tl {{item.id}} {{site.lang}} %}' 
+                                   class="sidebar-nav-item active"
+                                >
+                                    {{ item.name }}
+                                </a>
+                            {% endfor %}
+
+                        </ul>
+                    </nav>
+
+
+                    <!-- Social section -->
+                    <div class="sidebar-social">
+                        <span class="sr-only">Social:</span>
+                        <ul>
+                            {% for item in site.data.social %}
+                                <li>
+                                    <a href="{{item.link}}" title="{{item.title}}" class="no-mark-external" >
+                                        <span class="{{item.class}}"></span>
+                                        <span class="sr-only">{{item.title}}</span>
+                                    </a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+
+                    {% for l in site.languages %}
+                        {% if l != site.lang %}
+                            <div>
+                                <a onclick="window.location.href='{% tl home {{l}} %}'" 
+                               href='#'>{{ site.text_to_lang[l] }}</a>
+                            </div>
+
+                        {% endif %}
+                    {% endfor %}
+
+
+                </div>
+            </header>
+        </hy-drawer>
+    </hy-push-state>
+
+
+    <!--[if gt IE 9]><!---->
+    <script>loadJSDeferred('assets/js/hydejack-7.5.1.js');</script>
+    <!--<![endif]-->
+
+
+    <hr class="sr-only"/>
+    <h2 class="sr-only">Templates (for web app):</h2>
+
+    <template id="_animation-template">
+        <div class="animation-main fixed-top">
+            <div class="content">
+                <div class="page"></div>
+            </div>
+        </div>
+    </template>
+
+    <template id="_loading-template">
+        <div class="loading">
+            <span class="sr-only">Loading…</span>
+            <span class="icon-cog"></span>
+        </div>
+    </template>
+
+    <template id="_error-template">
+        <div class="page">
+            <h1 class="page-title">Error</h1>
+            <p class="lead">
+            Sorry, an error occurred while loading <a class="this-link" href=""></a>.
+            </p>
+        </div>
+    </template>
+
+    <template id="_back-template">
+        <a id="_back" class="back nav-btn no-hover">
+            <span class="sr-only">Back</span>
+            <span class="icon-arrow-left2"></span>
+        </a>
+    </template>
+
+    <template id="_permalink-template">
+        <a href="#" class="permalink">
+            <span class="sr-only">Permalink</span>
+            <span class="icon-link"></span>
+        </a>
+    </template>
+
+
+</body>
+</html>

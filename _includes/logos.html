@@ -1,0 +1,7 @@
+<div style="text-align: center; margin-top: 50px">
+{% for item in site.data.logos %}
+    <a href="{{item.link}}" class="no-mark-external" style="display: inline-block;margin-right: 30px" target="_blank">
+        <img alt="{{item.name}}" src="{{item.src}}" style="height: 100px;width: auto;" />
+    </a>
+{% endfor %}
+</div>

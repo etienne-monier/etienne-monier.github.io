@@ -1,0 +1,98 @@
+#
+#
+#  English configuration
+#
+#
+
+# Config
+# ========================================================================================
+
+# Literal language name
+lang: English
+
+# French configuration of the website
+site:
+  title: "Etienne MONIER, Univ. Toulouse"
+  image: "/assets/images/Etienne.jpg"
+  description: Etienne Monier's website, Ph.D. Student in image and signal processing in Toulouse, France. 
+  locale: en_GB
+  site_name: 
+
+
+# Left pannel description
+sidebar_text: "Ph.D. Student in image and signal processing in Toulouse, France. "
+
+
+# SEO
+# ========================================================================================
+
+# The title of the pages
+titles:
+  home: "Etienne MONIER, Univ. Toulouse"
+  publications: "Publications"
+  research: "Research"
+  teaching: "Teaching"
+  cv: "CV"
+  find-me: "Find me"
+
+# The description of the pages
+descriptions:
+  home: >
+    I am a PhD student in signal and image processing at the IRIT/ENSEEIHT laboratory, in Toulouse (France). 
+    My reasearch interests are efficient and fast reconstruction and inpainting algorithms for multi-band 
+    image acquisition.
+  publications: >
+    This page lists the research papers I published as a research communication.
+  research: >
+    My reasearch interests include inpainting, multi-band images, dictionary learning, variational forms, 
+    sparsity.
+  teaching: >
+    I teached to engineer school student digital signal processing tools as analog electronics.
+  cv: >
+    Here is my cv.
+  find-me: >
+    You can contact me by sending me an email or with social networks.
+
+
+# Navigation
+# ========================================================================================
+
+# 
+# Add an id for each page with the link name that will appear on the leftbar. 
+# CAUTION: the id should be common to all language config file.
+nav:
+
+  - id: home 
+    name: "About me"
+
+  - id: publications
+    name: "Publications & Talks"
+
+  - id: research
+    name: Research activities
+
+  - id: teaching
+    name: Teaching
+
+  - id: cv
+    name: "CV"
+
+  - id: findme
+    name: "Find Me" 
+
+
+# News/Events
+# ========================================================================================
+
+# The title of the News/Events section
+events_title: "News/Events"
+
+# The events date and description.
+#
+# If this part is commented, nothing will be displayed on the welcome page.
+# 
+# e.g.
+# events:
+#   event0:
+#     date: "September 23-26, 2018"
+#     text: "Attending <a href='http://www.ieee-whispers.com/2017/11/23/whispers-2018/'>WHISPERS 2018 conference</a> (Amsterdam, The Netherlands)."

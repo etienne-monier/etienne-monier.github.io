@@ -1,0 +1,16 @@
+{% if site.translations[site.lang]["events"] %}
+
+<div class="message">
+    <span style="color='black;">
+        <strong>{% t events_title %}</strong>
+    </span><br/>
+
+    <span style="font-size: 0.9em">
+        {% for item in site.translations[site.lang].events %}
+          <strong>{{item.date}}</strong>: {{ item.text }}
+        {% endfor %}
+    </span>
+
+</div>
+
+{% endif %}

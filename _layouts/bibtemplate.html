@@ -1,0 +1,47 @@
+---
+---
+{{reference}}
+    
+<span id='{{key}}_materials' markdown="0">
+    <ul class="bib" style="margin-left: 0px">
+
+        <li>
+            <a data-target="#{{key}}_bibtex" data-toggle="collapse" href="#{{key}}" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', '{{key}}']); return false;">
+                bibtex
+            </a>
+        </li>
+
+        {% if  entry.abstract %}
+            <li>
+                <a data-target="#{{key}}_abstract" data-toggle="collapse" href="#{{key}}" onclick="return false">
+                    abstract
+                </a>
+            </li>
+        {% endif %}
+
+        {% if entry.arxiv %}
+            <li><a href="{{entry.arxiv}}" target="_blank">arxiv</a></li>
+        {% endif %}
+
+        {% if link %}
+            <li><a href="{{link}}" target="_blank">pdf</a></li>
+        {% endif %}
+
+        {% if entry.web %}
+            <li><a href="{{entry.web}}" target="_blank">web</a></li>
+        {% endif %}
+
+        {% if link['code.zip'] %}
+            <li><a href="{{link['code.zip']}}" target="_blank">code</a></li>
+        {% endif %}
+
+    </ul>
+
+    {% if entry.abstract %}
+    <p id="{{key}}_abstract" class="abs collapse"> {{entry.abstract}} </p>
+    {% endif %}
+
+
+    <pre id="{{key}}_bibtex" class="prebib collapse"> {{entry.bibtex}} </pre>
+
+</span>
