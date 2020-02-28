@@ -1,15 +1,14 @@
-# Curriculum vitae
+# [<i class="fas fa-file-download"></i>](/assets/pdf/cv.pdf) Curriculum vitae
 {: .page-title .hr}
-
-## Télécharger la version pdf
-
-{: .file_download}
-[<i class="fas fa-file-download"></i>](/assets/pdf/cv.pdf)
 
 
 ## Sommaire
 
 <div style='line-height: 3;'>
+<a href="#pres" class="no-mark-external" style="display: inline-block;margin-right: 30px" >
+<i class="fas fa-laptop-code" style="font-size: em">  Présentation</i>
+</a><br>
+
 <a href="#prof" class="no-mark-external" style="display: inline-block;margin-right: 30px" >
 <i class="fas fa-laptop-code" style="font-size: em">  Expérience professionnelle</i>
 </a><br>
@@ -30,9 +29,25 @@
 
 
 
+## <a name="pres"></a>Présentation
+{: .h1}
+
+Je suis un doctorant en traitement du signal et de l’image de 27 ans, marié et père. Je suis rigoureux, très curieux et enthousiaste. Passionné de développement et d’informatique, je m’applique à mettre au point des techniques de reconstruction en imagerie. Je suis aussi épris de menuiserie que je pratique comme passe-temps.
+
+
+
+
 ## <a name="prof"></a>Expérience professionnelle
+{: .h1}
 
 {::options parse_block_html="true" /}
+
+**2019 - 2020 : ATER**
+
+Institut National Polytechnique de Toulouse (31), France
+{: .cv }
+
+Attaché temporaire d’enseignement et de recherche. J’ai mené des publication et des recherches à leur terme. J’ai été intégré à une équipe d’enseignement en école d’ingénieur.
 
 
 **2016 - 2019 : Ingénieur de recherche** 
@@ -74,7 +89,7 @@ Stage pédagogique de 3 mois. J’ai eu à prendre en main un système de radio 
 IUT de Ville D’Avray (92), France
 {: .cv}
 
-Stage pédagogique de 2 semaines. J’ai enseignemé à des étudiants en IUT de GEII (Génie Electrique et Informatique Industrielle) la théorie de l’échantillonnage, les systèmes échantillonnés et le génie électrique (entre autres) à travers des TD et TP (entre 15 et 20 étudiants).
+Stage pédagogique de 2 semaines. J’ai enseigné à des étudiants en IUT de GEII (Génie Electrique et Informatique Industrielle) la théorie de l’échantillonnage, les systèmes échantillonnés et le génie électrique (entre autres) à travers des TD et TP (entre 15 et 20 étudiants).
 
 
 **2014 : Assistant de recherche**
@@ -86,6 +101,7 @@ Stage de Master 1 de 3 mois. Application de la théorie d’analyse par interval
 
 
 ## <a name="acad"></a>Formation académique
+{: .h1}
 
 **2016 - 2019 : Doctorat en informatique**
 
@@ -110,7 +126,7 @@ cellulaires et filaires.
 École normale supérieure de Cachan (94)
 {: .cv}
 
-Année de formation pour l’enseignement supérieur en physique appliquée. Par des mises en situation réelles (auprès d’étudiants) ou fictives (devant des enseignants), j’ai transmis des savoirs, développé des contenus pédagogiques et affiné mes compétances en matière d’enseignement.
+Année de formation pour l’enseignement supérieur en physique appliquée. Par des mises en situation réelles (auprès d’étudiants) ou fictives (devant des enseignants), j’ai transmis des savoirs, développé des contenus pédagogiques et affiné mes compétences en matière d’enseignement.
 
 
 **2013 - 2014 : Master 1 IST**
@@ -136,35 +152,36 @@ Lycée Saint-Louis, Paris (75)
 
 
 ## <a name="info"></a>Informatique
+{: .h1}
 
 Au cours de ma carrière, j’ai développé un goût prononcé pour le développement et pour l’utilisation de *solution libres*.
 
 ### OS
 
-- Gnu/Linux : <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 
-- Windows : <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
-- MacOS : <i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+- Gnu/Linux : {% mark 5 %}
+- Windows : {% mark 4 %}
+- MacOS : {% mark 1 %}
 
 ### Languages et développement
 
-- Python : <i class="fas fa-star"><i class="fas fa-star"><i class="fas fa-star"><i class="fas fa-star"><i class="fas fa-star">
-- Matlab : <i class="fas fa-star"><i class="fas fa-star"><i class="fas fa-star"><i class="fas fa-star"><i class="fas fa-star">
-- C++ : <i class="fas fa-star"><i class="fas fa-star"><i class="fas fa-star"><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i>
-- C : <i class="fas fa-star"><i class="fas fa-star"><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i>
-- VBA : <i class="fas fa-star"><i class="fas fa-star"><i class="fas fa-star"><i class="far fa-star"></i><i class="far fa-star"></i>
-- git : <i class="fas fa-star"><i class="fas fa-star"><i class="fas fa-star"><i class="fas fa-star"><i class="far fa-star"></i>
+- Python : {% mark 5 %}
+- Matlab : {% mark 5 %}
+- C++ : {% mark 3.5 %}
+- C :   {% mark 2.5 %}
+- VBA : {% mark 2 %}
+- git : {% mark 4 %}
 
 ### Typographie
 
-- LaTeX : <i class="fas fa-star"><i class="fas fa-star"><i class="fas fa-star"><i class="fas fa-star"><i class="fas fa-star">
-- Markdown : <i class="fas fa-star"><i class="fas fa-star"><i class="fas fa-star"><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i>
+- LaTeX : {% mark 5 %}
+- Markdown : {% mark 3.5 %}
 
 ## <a name="inte"></a>Centres d'intérêt
 {: .h1}
 
 **Menuiserie** 
 
-Conception de meubles en bois massif dans un atelier collaboratif. Sculpture sur bois d’ornementation. Utilisation d’outils de CAO pour la partie conception. Je participe aussi à [un site collaboratif](www.lairdubois.fr/etienne31) et lis beaucoup à propos de techniques oubliées.
+Conception de meubles en bois massif dans un atelier collaboratif. Sculpture sur bois d’ornementation. Utilisation d’outils de CAO pour la partie conception. Je participe aussi à [un site collaboratif](https://www.lairdubois.fr/etienne31) et lis beaucoup à propos de techniques anciennes à la main.
 
 **Jeux de plateau** 
 

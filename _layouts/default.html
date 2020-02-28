@@ -65,6 +65,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css" integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/flaticon/flaticon.css">
 
     
 
@@ -177,19 +178,7 @@
 
 
                     <!-- Social section -->
-                    <div class="sidebar-social">
-                        <span class="sr-only">Social:</span>
-                        <ul>
-                            {% for item in site.data.social %}
-                                <li>
-                                    <a href="{{item.link}}" title="{{item.title}}" class="no-mark-external" >
-                                        <span class="{{item.class}}"></span>
-                                        <span class="sr-only">{{item.title}}</span>
-                                    </a>
-                                </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
+                    {% include social.html %}
 
                     {% for l in site.languages %}
                         {% if l != site.lang %}

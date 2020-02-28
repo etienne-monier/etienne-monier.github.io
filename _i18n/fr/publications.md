@@ -13,3 +13,9 @@
 ## Conferences nationales
 
 {% bibliography --file NationalConfs %}
+
+## Rapports techniques
+
+*Note : Ces rapports techniques sont des versions complétées des articles de journaux listés ci-dessus.*
+
+{% bibliography --file TechReports %}

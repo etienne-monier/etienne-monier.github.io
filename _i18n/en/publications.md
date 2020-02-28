@@ -13,3 +13,9 @@
 ## National conference papers
 
 {% bibliography --file NationalConfs %}
+
+## Technical reports
+
+*Note: Some (most?) of these technical reports are extended versions of journal papers listed above.*
+
+{% bibliography --file TechReports %}

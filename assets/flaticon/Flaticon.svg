@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2020-2-28: Created with FontForge (http://fontforge.org)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20170731 at Fri Feb 28 09:45:30 2020
+ By root
+
+</metadata>
+<defs>
+<font id="Flaticon" horiz-adv-x="512" >
+  <font-face 
+    font-family="Flaticon"
+    font-weight="400"
+    font-stretch="normal"
+    units-per-em="512"
+    panose-1="2 0 5 3 0 0 0 0 0 0"
+    ascent="448"
+    descent="-64"
+    bbox="0 -64.001 512 448"
+    underline-thickness="25.6"
+    underline-position="-51.2"
+    unicode-range="U+0020-F102"
+  />
+    <missing-glyph />
+    <glyph glyph-name="space" unicode=" " horiz-adv-x="200" 
+ />
+    <glyph glyph-name="001-contrast" unicode="&#xf100;" 
+d="M256 448c141.503 0 256 -114.509 256 -256c0 -141.503 -114.509 -256 -256 -256c-141.503 0 -256 114.509 -256 256c0 141.503 114.509 256 256 256zM271 -33.5127c116.315 7.56738 211 104.164 211 225.513c0 121.382 -94.7402 217.949 -211 225.513v-451.025z" />
+    <glyph glyph-name="002-circle" unicode="&#xf101;" 
+d="M256 448c141.503 0 256 -114.509 256 -256c0 -141.503 -114.509 -256 -256 -256c-141.503 0 -256 114.509 -256 256c0 141.503 114.509 256 256 256zM256 -29.8672c122.337 0 221.867 99.5303 221.867 221.867s-99.5303 221.867 -221.867 221.867
+s-221.867 -99.5293 -221.867 -221.867s99.5303 -221.867 221.867 -221.867z" />
+    <glyph glyph-name="003-circular-shape-silhouette" unicode="&#xf102;" 
+d="M477.675 320.502c22.8818 -39.2197 34.3252 -82.0557 34.3242 -128.503c0 -46.4414 -11.4424 -89.2764 -34.3291 -128.5c-22.8906 -39.2197 -53.9424 -70.2803 -93.1631 -93.167c-39.2227 -22.8887 -82.0596 -34.333 -128.504 -34.333s-89.2764 11.4443 -128.502 34.333
+c-39.2227 22.8945 -70.2754 53.9473 -93.167 93.167c-22.8877 39.2275 -34.334 82.0557 -34.334 128.5c0 46.4424 11.4434 89.2783 34.3369 128.503c22.8926 39.2236 53.9453 70.2764 93.1689 93.1641c39.2207 22.8906 82.0566 34.334 128.502 34.334
+c46.4502 0 89.2725 -11.4434 128.5 -34.334c39.2207 -22.8916 70.2734 -53.9443 93.167 -93.1641z" />
+  </font>
+</defs></svg>

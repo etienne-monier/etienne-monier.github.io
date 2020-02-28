@@ -3,42 +3,8 @@
 
 
 ## Sur Internet
-<!-- Social bar -->
-  <div class="sidebar-social">
-    <span class="sr-only">Réseaux sociaux:</span>
-    <ul>
-                <li>
-            <a href="mailto:etienne.monier@enseeiht.fr" title="Email" class="no-mark-external" >
-              <span class="icon-mail"></span>
-              <span class="sr-only">Email</span>
-            </a>
-          </li>
-                    <li>
-            <a href="https://www.linkedin.com/in/etienne-monier-7252a19b/" title="LinkedIn" class="no-mark-external" >
-              <span class="icon-linkedin2"></span>
-              <span class="sr-only">LinkedIn</span>
-            </a>
-          </li>
-                    <li>
-            <a href="https://github.com/etienne-monier" title="Github" class="no-mark-external" >
-              <span class="icon-github"></span>
-              <span class="sr-only">Github</span>
-            </a>
-          </li>
-                    <li>
-            <a href="https://scholar.google.fr/citations?user=S28G8eMAAAAJ&hl=fr&oi=ao" title="Google Scholar" class="no-mark-external" >
-              <span class="ai ai-google-scholar-square"></span>
-              <span class="sr-only">Google Scholar</span>
-            </a>
-          </li>
-                    <li>
-            <a href="https://www.lairdubois.fr/etienne31" title="L'air du bois" class="no-mark-external" >
-              <span class="icon-ladb_2"></span>
-              <span class="sr-only">L'air du bois</span>
-            </a>
-          </li>
-              </ul>
-  </div>
+
+{% include social.html %}
 
 ## Téléphone
 

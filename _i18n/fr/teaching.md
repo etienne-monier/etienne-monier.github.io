@@ -8,7 +8,7 @@ Depuis 2016, j'interviens en tant qu'enseignant temporaire au sein du départeme
 - Intégration de fonctions complexes
 - Traitement du signal et de l'image (filtres numériques, corrélation, etc)
 - Analyse statistique
-- Electronique analogique - Boucle à verouillage de phase - Amplification, filtrage analogique
+- Electronique analogique - Boucle à verrouillage de phase - Amplification, filtrage analogique
 
 Depuis 2019, j'interviens également en tant qu'ATER dans les formations suivantes. 
 
