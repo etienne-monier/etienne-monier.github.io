@@ -1,1 +1,1 @@
-Sitemap: https://etienne-monier.github.io/en/sitemap.xml
+Sitemap: https://etienne-monier.github.io/sitemap.xml
