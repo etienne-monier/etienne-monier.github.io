@@ -3,7 +3,9 @@
 # Welcome
 {: .page-title .hr #aboutme}
 
-I am a Ph.D. student since September, 2016 in the city of Toulouse, France. I work under the supervision of [Thomas Oberlin](http://oberlin.perso.enseeiht.fr/) and [Nicolas Dobigeon](http://dobigeon.perso.enseeiht.fr/index.html), within the [SC](http://sc.enseeiht.fr/) group of the [IRIT](https://www.irit.fr/) laboratory.
+I am Etienne Monier, a French doctor in signal and image processing.
+
+I worked on partially-sampled multi-band image reconstruction during 4 years and finaly defended my PhD on October 9, 2020, at Toulouse, France. I worked under the supervision of [Thomas Oberlin](http://oberlin.perso.enseeiht.fr/) and [Nicolas Dobigeon](http://dobigeon.perso.enseeiht.fr/index.html), within the [SC](http://sc.enseeiht.fr/) group of the [IRIT](https://www.irit.fr/) laboratory.
 
 Prior to that, I graduated from [Ecole Normale Supérieur de Cachan](http://www.ens-cachan.fr/) (renamed Ecole Normale Supérieur Paris-Saclay in September 2016). I hold two M.Sc. degrees : one in teaching and another in signal processing.
 

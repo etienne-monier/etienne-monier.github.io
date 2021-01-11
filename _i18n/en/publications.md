@@ -1,6 +1,9 @@
 # Publications and Talks
 {: .page-title .hr}
 
+## Thesis
+
+{% bibliography --file thesis %}
 
 ## International journal papers
 

@@ -161,7 +161,7 @@ Stage de Master 1 de 3 mois. Application de la théorie d'analyse par intervalle
 ## <a name="acad"></a>Formation académique
 {: .h1}
 
-**2016 - 2019 : Doctorat en informatique**
+**2016 - 2020 : Doctorat en informatique**
 
 Institut National Polytechnique de Toulouse (31)
 {: .cv}

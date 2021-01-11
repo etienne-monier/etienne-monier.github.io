@@ -31,8 +31,8 @@
             <li><a href="{{entry.url}}" target="_blank">URL</a></li>
         {% endif %}
 
-        {% if link['code.zip'] %}
-            <li><a href="{{link['code.zip']}}" target="_blank">code</a></li>
+        {% if entry.code %}
+            <li><a href="{{entry.code}}" target="_blank">code</a></li>
         {% endif %}
 
     </ul>

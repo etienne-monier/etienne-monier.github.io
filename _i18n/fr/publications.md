@@ -1,6 +1,9 @@
 # Publications et conférences
 {: .page-title .hr}
 
+## Thèse
+
+{% bibliography --file thesis %}
 
 ## Journaux internationaux
 

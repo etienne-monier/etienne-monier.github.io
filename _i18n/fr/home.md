@@ -3,7 +3,9 @@
 # Bienvenue
 {: .page-title .hr #aboutme}
 
-Je suis doctorant en traitement du signal et de l'image depuis septembre 2016 à Toulouse. Je travaille sous la supervision de [Thomas Oberlin](http://oberlin.perso.enseeiht.fr/) et de [Nicolas Dobigeon](http://dobigeon.perso.enseeiht.fr/index.html) au sein de l'équipe [SC](http://sc.enseeiht.fr/) du laboratoire [IRIT](https://www.irit.fr/).
+Je m'appelle Etienne Monier et je suis docteur en traitement du signal et de l'image.
+
+J'ai soutenu ma thèse le 9 octobre 2020, après avoir travaillé pendant 4 années sur la reconstruction d'images multi-bande partiellement échantillonnées en microscopie EELS. J'étais supervisé par [Thomas Oberlin](http://oberlin.perso.enseeiht.fr/) et [Nicolas Dobigeon](http://dobigeon.perso.enseeiht.fr/index.html) au sein de l'équipe [SC](http://sc.enseeiht.fr/) du laboratoire [IRIT](https://www.irit.fr/).
 
 J'ai étudié à l'[Ecole Normale Supérieure de Cachan](https://ens-paris-saclay.fr/) (devenue École Normale Supérieure Paris-Saclay) où j'ai obtenu deux masters : un en recherche et un en enseignement. 
 
